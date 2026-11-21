@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "AI Ticket It",
+    "slug": "ai-ticket-it",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "aiticketit",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "ar.aiticketit.app"
+    },
+    "android": {
+      "package": "ar.aiticketit.app",
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "backgroundColor": "#16714A"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-font",
+      ["expo-splash-screen", { "backgroundColor": "#16714A" }]
+    ]
+  }
+}
